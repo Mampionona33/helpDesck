@@ -12,8 +12,8 @@ export default {
         error: "#EF4444",
         border: "#E5E7EB",
         // Ajout de vos couleurs spécifiques au dégradé
-        "gradient-start": "#d7dde8",
-        "gradient-end": "#757f9a",
+        "gradient-start": "#606c88",
+        "gradient-end": "#3f4c6b",
       },
       backgroundImage: {
         "gradient-custom": "linear-gradient(to top, #d7dde8, #757f9a)",
