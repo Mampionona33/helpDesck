@@ -11,6 +11,15 @@ export default {
         accent: "#10B981",
         error: "#EF4444",
         border: "#E5E7EB",
+        // Ajout de vos couleurs spécifiques au dégradé
+        "gradient-start": "#d7dde8",
+        "gradient-end": "#757f9a",
+      },
+      backgroundImage: {
+        "gradient-custom": "linear-gradient(to top, #d7dde8, #757f9a)",
+        // Ou bien ajouter la version webkit :
+        "gradient-custom-webkit":
+          "-webkit-linear-gradient(to top, #d7dde8, #757f9a)",
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
