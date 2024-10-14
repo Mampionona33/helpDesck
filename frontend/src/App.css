@@ -1,8 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 #root {
-  max-width: 1280px;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  background: #757f9a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #d7dde8, #757f9a);
+  background: linear-gradient(to top, #d7dde8, #757f9a);
 }
 
 .logo {
