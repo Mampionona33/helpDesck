@@ -131,3 +131,23 @@ Avant de démarrer, assurez-vous d’avoir les éléments suivants installés :
 
 - **`npm start`** : Démarre le serveur de développement React
 - **`npm run build`** : Construit l'application pour la production
+
+## Structure du projet
+
+helpdesk-system/
+│
+├── backend/
+│ ├── src/
+│ │ ├── controllers/ # Gestion des actions sur les tickets, chat, utilisateurs
+│ │ ├── middleware/ # Middleware pour la gestion de l'authentification JWT
+│ │ ├── models/ # Modèles Prisma pour SQLite
+│ │ └── routes/ # Routes de l'API REST (auth, tickets, chat)
+│ ├── prisma/ # Fichiers de migration et schéma de la base de données
+│ └── ...
+│
+├── frontend/
+│ ├── src/
+│ │ ├── components/ # Composants React (formulaires, chat, etc.)
+│ │ ├── pages/ # Pages principales (login, dashboard, tickets)
+│ │ └── services/ # Gestion des requêtes API et WebSocket
+│ └── ...
